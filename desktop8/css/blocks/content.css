@@ -1,0 +1,41 @@
+.content{
+    float: right;
+    width: 80.5%;
+    padding: 30px;
+
+}
+.content h1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.content_main_block{
+    border-radius: 10px;
+    background: #EBF7F5;
+}
+.content_main{
+    padding: 0px;
+}
+.content_main li{
+    display: grid;
+    grid-template-columns: 5% 30% 40% 25%;
+    border-bottom: 2px solid #B1DBD9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+
+}
+.content_main:last-child{
+    border: none;
+}
+.content_main li p{
+    margin-left: 16px;
+}
+.content_main li:first-child{
+    font-weight: 700;
+    background: #D9F1F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
